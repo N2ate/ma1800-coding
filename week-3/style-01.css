@@ -1,0 +1,9 @@
+body{background-color: blue;
+}
+
+h1{color: darkred;font-family: Arial, Helvetica, sans-serif;}
+
+/* style the paragraph */
+p{color: black;font-family: Georgia, 'Times New Roman', Times, serif;font-size: 28px;
+     border: 8px solid; 
+    ;}
