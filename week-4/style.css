@@ -1,0 +1,45 @@
+*{box-sizing: border-box;}
+
+body {margin: 12px;
+font-family: 'Courier New', Courier, monospace;
+line-height: 1,4;
+color: blue;}
+
+img{max-width: 100%;
+height: auto;}
+
+a{color: blue;
+text-decoration: none;}
+
+a:hover{text-decoration: underline;}
+
+
+.button,button{display: inline-block;
+padding: 10px 12px;
+background-color: azure;
+color: #fff;
+border: 0;
+border-radius: 4px;}
+
+.image-box{display: inline-block;
+border: 1px solid #ccc;
+margin: 6px 6px 0 0;
+text-align: center;}
+
+.caption{font-size: 0.9rem;
+colour: #555;
+margin: 4px 00;}
+
+/* class and ID demos*/
+.highlight{background-color: yellow;}
+
+#summary {font-style: italic;}
+
+.reveal{color: transparent;
+border-bottom: 1px;
+border-bottom:1px dotted #ccc;}
+
+#content:hover.reveal{color: #c00;}
+
+.visually-hidden{position:absolute;
+left: -9999px;}
